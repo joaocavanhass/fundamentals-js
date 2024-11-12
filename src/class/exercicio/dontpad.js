@@ -60,10 +60,10 @@
 
 //  Reverter uma string
 const str = "joao cavanhas";
-let invertida = "";
+let invertidas = "";
 
 for (let i = str.length - 1; i >= 0; i--) {
-  invertida += str[i];
+  invertidas += str[i];
 }
 
-console.log(invertida);
+console.log(invertidas);
